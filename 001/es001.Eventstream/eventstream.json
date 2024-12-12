@@ -1,0 +1,50 @@
+{
+  "sources": [
+    {
+      "id": "f301ad7c-26b7-4a22-ace9-cb7c2e15c4f7",
+      "name": "sd1",
+      "type": "SampleData",
+      "properties": {
+        "type": "Bicycles"
+      }
+    }
+  ],
+  "destinations": [
+    {
+      "id": "c7534c0a-e6f2-4093-9396-6b3c44b3e725",
+      "name": "act1",
+      "type": "Activator",
+      "properties": {
+        "workspaceId": "00000000-0000-0000-0000-000000000000",
+        "itemId": "0925f9df-0f24-ad92-4f7a-44f4392e6a05",
+        "inputSerialization": {
+          "type": "Json",
+          "properties": {
+            "encoding": "UTF8"
+          }
+        }
+      },
+      "inputNodes": [
+        {
+          "name": "es001-stream"
+        }
+      ],
+      "inputSchemas": []
+    }
+  ],
+  "streams": [
+    {
+      "id": "d7c1b3af-2153-4fd7-abe0-f7fad054d271",
+      "name": "es001-stream",
+      "type": "DefaultStream",
+      "properties": {},
+      "inputNodes": [
+        {
+          "name": "sd1"
+        }
+      ]
+    }
+  ],
+  "operators": [],
+  "compatibilityLevel": "1.0"
+}
