@@ -16,7 +16,7 @@
       "type": "Activator",
       "properties": {
         "workspaceId": "00000000-0000-0000-0000-000000000000",
-        "itemId": "0925f9df-0f24-ad92-4f7a-44f4392e6a05",
+        "itemId": "5342819a-40f7-9362-46c5-504484fde121",
         "inputSerialization": {
           "type": "Json",
           "properties": {
@@ -29,7 +29,57 @@
           "name": "es001-stream"
         }
       ],
-      "inputSchemas": []
+      "inputSchemas": [
+        {
+          "name": "es001-stream",
+          "schema": {
+            "columns": [
+              {
+                "name": "BikepointID",
+                "type": "Nvarchar(max)",
+                "fields": null,
+                "items": null
+              },
+              {
+                "name": "Street",
+                "type": "Nvarchar(max)",
+                "fields": null,
+                "items": null
+              },
+              {
+                "name": "Neighbourhood",
+                "type": "Nvarchar(max)",
+                "fields": null,
+                "items": null
+              },
+              {
+                "name": "Latitude",
+                "type": "Float",
+                "fields": null,
+                "items": null
+              },
+              {
+                "name": "Longitude",
+                "type": "Float",
+                "fields": null,
+                "items": null
+              },
+              {
+                "name": "No_Bikes",
+                "type": "BigInt",
+                "fields": null,
+                "items": null
+              },
+              {
+                "name": "No_Empty_Docks",
+                "type": "BigInt",
+                "fields": null,
+                "items": null
+              }
+            ]
+          }
+        }
+      ]
     }
   ],
   "streams": [

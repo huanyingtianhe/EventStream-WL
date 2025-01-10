@@ -1,0 +1,13 @@
+[
+  {
+    "uniqueIdentifier": "83775c16-9acc-44e7-8d8f-3e9d447ac000",
+    "payload": {
+      "name": "es001-stream",
+      "definition": {
+        "type": "Event",
+        "instance": "{\"templateId\":\"SourceEvent\",\"templateVersion\":\"1.1\",\"steps\":[{\"name\":\"SourceEventStep\",\"id\":\"25184b09-15f7-458e-9b08-db820e06a8ae\",\"rows\":[{\"name\":\"SourceSelector\",\"kind\":\"SourceReference\",\"arguments\":[{\"name\":\"entityId\",\"type\":\"string\",\"value\":\"c7534c0a-e6f2-4093-9396-6b3c44b3e725\"}]}]}]}"
+      }
+    },
+    "type": "timeSeriesView-v1"
+  }
+]
